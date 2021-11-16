@@ -1,1 +1,1 @@
-# plagin_product_catalog
+Плагин - каталог продуктов 
