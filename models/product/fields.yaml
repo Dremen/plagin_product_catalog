@@ -1,0 +1,70 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        is_in_stock:
+            label: В наличии
+            type: checkbox
+            default: true
+        product_characters:
+            label: Характеристики продукта
+            type: section
+        product_name:
+            label: Название
+        product_description:
+            label: Описание
+        product_status:
+            label: Статус продукта
+            type: dropdown
+            options:
+                true: Активный
+                false: Неактивный
+        product_photo:
+            label: Фотография продукта
+            comment: Разрешение:424x648px, максимальный вес 2 Мб
+            type: fileupload
+            mode: image
+            imageHeight: 305
+            imageWidth: 200
+        product_series:
+            label: Серия продукта
+        product_ratio:
+            label: Соотношение диаметров
+        product_height:
+            label: Высота
+        product_weight:
+            label: Ширина
+        product_size:
+            label: Емкость
+        product_material:
+            label: Материал
+        product_maintenance:
+            label: Уход
+        product_pack:
+            label: Упаковка
+        product_price:
+            label: Цена
+        note:
+            type: section
+            label: Текстовый блок
+        note_photo:
+            type: fileupload
+            label: Изображение
+            comment: Разрешение:648x648px, максимальный вес 2 Мб
+            imageHeight: 300
+            imageWidth: 300
+        note_title:
+            label: Заголовок текстового блока
+        note_description:
+            label: Описание текстового блока
+            type: richeditor
+
+        photos_end_articles:
+            label: Фотографии в конце статьи
+            type: fileupload
+            mode: image
+            comment: Разрешение:648x648px, максимальный вес 2 Мб
+            imageHeight: 300
+            imageWidth: 300

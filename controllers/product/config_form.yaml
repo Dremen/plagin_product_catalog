@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/sydonios/product/models/product/fields.yaml
+
+# Model Class name
+modelClass: Sydonios\Product\Models\Product
+
+# Default redirect location
+defaultRedirect: sydonios/product/product
+
+# Create page
+create:
+    title: Create Product
+    redirect: sydonios/product/product/update/:id
+    redirectClose: sydonios/product/product
+
+# Update page
+update:
+    title: Edit Product
+    redirect: sydonios/product/product
+    redirectClose: sydonios/product/product
+
+# Preview page
+preview:
+    title: Preview Product

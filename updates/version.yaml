@@ -1,0 +1,9 @@
+1.0.1:
+  - Run table migrations
+  - create_products_table.php
+1.0.2:
+  - Add is in stock columns to products table
+  - add_is_in_stock_columns_products_table.php
+1.0.3:
+  - Add slug column products table
+  - add_slug_column_products_table.php
